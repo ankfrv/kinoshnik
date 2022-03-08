@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Киношник</title>
+
+    <style>
+
+html{
+width: 100%;
+max-width: 100%;
+overflow-x: hidden;
+}
+
+body
+{
+width: 100%;
+max-width: 100%;
+overflow-x: hidden;
+margin: 0;
+}
+
+        .zagolovok {
+             text-align: center;
+            font-size: 80px;
+            margin: 30px 0 0 0;
+            font-weight: bold;
+            
+        }
+        
+        .afisha {
+            position: absolute;
+            left: 33%; 
+            
+        }
+
+        .rec {
+            position: absolute;
+            left: 48%;
+        }
+
+        .genre {
+            position: absolute;
+            left: 63%;
+        }
+
+        .articles {
+            position: absolute;
+            left: 8%;
+        }
+
+        .news {
+            position: absolute;
+            left: 85%;
+        }
+
+        .navi {
+            font-size: 43px;
+            font-variant: small-caps;
+        }
+
+        .spisok {
+            list-style-type: none;
+        }
+
+        .batman {
+            position: absolute;
+            left: 13%;
+            top: 40%;
+        }
+
+        .premier {
+            width: 320px;
+            height: 540px;
+            position: absolute;
+            left: 65%;
+            top: 40%;
+            font-size: 30px;
+            line-height: 1.4;
+            border-left: 2px solid;
+            padding: 0px 0px 0px 15px;
+        }
+
+        .interesting {
+            position: absolute;
+            top: 970px; 
+            left: 50px;
+            font-size: 30px;
+            font-variant: small-caps;
+        }
+
+       .theboys {
+        position: absolute;
+            top: 1050px; 
+            left: 120px;
+       }
+
+       .capitan {
+        position: absolute;
+            top: 1050px; 
+            left: 710px;
+       }
+
+       .rayan {
+        position: absolute;
+            top: 1050px; 
+            left: 1300px;
+       }
+
+       .capture {
+           font-size: 18px;
+           text-align: center;
+       }
+
+       .else {
+        position: absolute;
+            top: 1450px; 
+            left: 90%;
+        font-size: 24px;
+        font-variant: small-caps;
+       }
+
+
+        .footer {
+            width: 100%;
+            position: absolute;
+            top: 1500px;
+            background-color: black;
+            color: white;
+        }
+
+        .footerul {
+            font-size: 17px;
+            list-style-type: none;
+            line-height: 35px;
+        }
+
+    </style>
+
+</head>
+
+<body>
+
+    <header>
+        <div class="zagolovok">Киношник</div>
+    </header>
+    <nav class="navi">
+        <ul class="spisok">
+            <li class="news">Новости</li>
+            <li class="afisha">Афиша</li>
+            <li class="rec">Рецензии</li>
+            <li class="genre">Поиск по жанрам</li>
+            <li class="articles">Интересные статьи</li>
+        </ul>
+    </nav>
+
+    <main>
+
+        <div class="batman">
+            <img src="\Kinoshnik\m_bats.jpg" alt="Тут был БЕТМЭН!!!">
+        </div>
+        <div class="premier">
+            Насколько хорош бетмен, которого не покажут в России? Мы специально съездили в Казахстан на премьеру, чтобы порадовать любителей сайта Киношник Вашими любимыми статьями и написали подробный анализ нового фильма про самого мрачного супергероя всех времен. 
+        </div>
+
+        <div class="interesting">
+            Может быть интересно:
+        </div>
+        
+        <figure class="theboys">
+            <img src="\Kinoshnik\boys.PNG" alt="тут были пацаны">  <figcaption class="capture">Невероятно жестоко и скучно. Обзор на мультсериал Пацаны.</figcaption>
+        </figure>
+
+        <figure class="capitan">
+            <img src="\Kinoshnik\cap.jpg" alt="тут был кэп">  <figcaption class="capture">Почему Капитан Америка смог поднять молот Тора?</figcaption>
+        </figure>
+
+        <figure class="rayan">
+            <img src="\Kinoshnik\reynolds.jpg" alt="тут был дэдпул))">  <figcaption class="capture">Проект Адам - трейлер боевика с Райаном Рейндольтсом <br> в главной роли.</figcaption>
+        </figure>
+
+        <span class="else">Смотреть еще...</span>
+
+    </main>
+
+    <footer class="footer">
+
+        <ul class="footerul">
+            <li>О проектe</li>
+            <li>Адрес для обращений пользователей: anton-nikiforov@internet.ru</li>
+            <li>Справка</li>
+        </ul>
+
+    </footer>
+
+</body>
+</html>
